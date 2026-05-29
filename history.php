@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-// Обработка выхода
 if (isset($_GET['logout'])) {
     session_unset();
     session_destroy();

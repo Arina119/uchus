@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// Если пользователь уже авторизован, перенаправляем
+// Если пользователь уже авторизован
 if (isset($_SESSION['user_id'])) {
     if (isset($_SESSION['admin']) && $_SESSION['admin']) {
         header('Location: admin.php');

@@ -486,7 +486,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </footer>
 
 <script>
-    // Подсказки для пароля
+
     const password = document.getElementById('password');
     const confirmPassword = document.getElementById('confirm_password');
     const passwordHint = document.getElementById('passwordHint');
