@@ -13,7 +13,7 @@ if (!isset($_SESSION['user_id'])) {
 }
 include('db.php');
 
-// Обработка отзыва — сохраняется в таблицу users
+// Обработка отзыва — сохраняется в табл users
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['review'])) {
     $review = $con->real_escape_string($_POST['review']);
     $user_id = (int)$_SESSION['user_id'];

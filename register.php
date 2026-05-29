@@ -521,7 +521,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         confirmPassword.addEventListener('input', checkMatch);
     }
 
-    // Автоматическое форматирование телефона
+    // Автоматическое форматирование телефон
     const phone = document.getElementById('phone');
     if (phone) {
         phone.addEventListener('input', function() {
